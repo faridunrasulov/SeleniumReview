@@ -1,0 +1,203 @@
+[1589609615.937][INFO]: Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 31044
+[1589609615.937][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1589609616.179][INFO]: [c6a480009501ab4778a709b4472224b1] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         }
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      }
+   }
+}
+[1589609616.180][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1589609616.180][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1589609616.187][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension=/var/folders/8f/qc1ypy794995m4vznm252bbh0000gn/T/.com.google.Chrome.3z2VBV/internal --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/8f/qc1ypy794995m4vznm252bbh0000gn/T/.com.google.Chrome.PNmYR4 data:,
+[1589609617.056][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1589609617.114][INFO]: [c6a480009501ab4778a709b4472224b1] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "81.0.4044.138",
+      "chrome": {
+         "chromedriverVersion": "81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776})",
+         "userDataDir": "/var/folders/8f/qc1ypy794995m4vznm252bbh0000gn/T/.com.google.Chrome.PNmYR4"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:60639"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "mac os x",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "c6a480009501ab4778a709b4472224b1"
+}
+[1589609617.184][INFO]: [c6a480009501ab4778a709b4472224b1] COMMAND Navigate {
+   "url": "http://www.seleniumframework.com/Practiceform/"
+}
+[1589609617.184][INFO]: Waiting for pending navigations...
+[1589609617.186][INFO]: Done waiting for pending navigations. Status: ok
+[1589609618.037][INFO]: Waiting for pending navigations...
+[1589609618.514][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589609618.818][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589609619.067][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589609619.228][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589609619.360][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589609619.548][INFO]: Done waiting for pending navigations. Status: ok
+[1589609619.548][INFO]: [c6a480009501ab4778a709b4472224b1] RESPONSE Navigate
+[1589609619.556][INFO]: [c6a480009501ab4778a709b4472224b1] COMMAND MaximizeWindow {
+
+}
+[1589609619.556][INFO]: Waiting for pending navigations...
+[1589609619.563][INFO]: Done waiting for pending navigations. Status: ok
+[1589609619.564][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1589609619.754][INFO]: Waiting for pending navigations...
+[1589609619.890][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589609619.942][INFO]: Done waiting for pending navigations. Status: ok
+[1589609619.942][INFO]: [c6a480009501ab4778a709b4472224b1] RESPONSE MaximizeWindow {
+   "height": 958,
+   "width": 1680,
+   "x": 0,
+   "y": 23
+}
+[1589609619.948][INFO]: [c6a480009501ab4778a709b4472224b1] COMMAND FindElement {
+   "using": "css selector",
+   "value": "button[onclick='newBrwTab()']"
+}
+[1589609619.948][INFO]: Waiting for pending navigations...
+[1589609619.949][INFO]: Done waiting for pending navigations. Status: ok
+[1589609619.959][INFO]: Waiting for pending navigations...
+[1589609619.960][INFO]: Done waiting for pending navigations. Status: ok
+[1589609619.960][INFO]: [c6a480009501ab4778a709b4472224b1] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "93828a50-845c-418e-b4e4-6752978096de"
+}
+[1589609619.967][INFO]: [c6a480009501ab4778a709b4472224b1] COMMAND ClickElement {
+   "id": "93828a50-845c-418e-b4e4-6752978096de"
+}
+[1589609619.967][INFO]: Waiting for pending navigations...
+[1589609619.968][INFO]: Done waiting for pending navigations. Status: ok
+[1589609620.093][INFO]: Waiting for pending navigations...
+[1589609620.139][INFO]: Done waiting for pending navigations. Status: ok
+[1589609620.139][INFO]: [c6a480009501ab4778a709b4472224b1] RESPONSE ClickElement
+[1589609620.141][INFO]: [c6a480009501ab4778a709b4472224b1] COMMAND GetWindows {
+
+}
+[1589609620.143][INFO]: [c6a480009501ab4778a709b4472224b1] RESPONSE GetWindows [ "CDwindow-12F03729800A9611CF4370E14EF78838", "CDwindow-F620273F7ED62ED3429ECA3E078F0D09" ]
+[1589609620.152][INFO]: [c6a480009501ab4778a709b4472224b1] COMMAND CloseWindow {
+
+}
+[1589609620.184][INFO]: [c6a480009501ab4778a709b4472224b1] RESPONSE CloseWindow [ "CDwindow-F620273F7ED62ED3429ECA3E078F0D09" ]
+[1589609620.193][INFO]: [c6a480009501ab4778a709b4472224b1] COMMAND SwitchToWindow {
+   "handle": "CDwindow-F620273F7ED62ED3429ECA3E078F0D09"
+}
+[1589609620.197][INFO]: [c6a480009501ab4778a709b4472224b1] RESPONSE SwitchToWindow
+[1589609620.202][INFO]: [c6a480009501ab4778a709b4472224b1] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//strong[contains(text(),'Agile Testing')]"
+}
+[1589609620.204][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1589609620.215][INFO]: Waiting for pending navigations...
+[1589609620.317][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589609620.421][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589609620.522][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589609620.624][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589609620.894][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589609621.306][INFO]: Done waiting for pending navigations. Status: ok
+[1589609621.315][INFO]: Waiting for pending navigations...
+[1589609621.318][INFO]: Done waiting for pending navigations. Status: ok
+[1589609621.318][INFO]: [c6a480009501ab4778a709b4472224b1] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "ba7eca0a-1e24-43cf-a1fd-c3bd0f0564e9"
+}
+[1589609621.321][INFO]: [c6a480009501ab4778a709b4472224b1] COMMAND GetElementText {
+   "id": "ba7eca0a-1e24-43cf-a1fd-c3bd0f0564e9"
+}
+[1589609621.321][INFO]: Waiting for pending navigations...
+[1589609621.322][INFO]: Done waiting for pending navigations. Status: ok
+[1589609621.338][INFO]: Waiting for pending navigations...
+[1589609621.340][INFO]: Done waiting for pending navigations. Status: ok
+[1589609621.340][INFO]: [c6a480009501ab4778a709b4472224b1] RESPONSE GetElementText "Agile Testing and ATDD Automation –  Free Tutorials"
+[1589609621.345][INFO]: [c6a480009501ab4778a709b4472224b1] COMMAND CloseWindow {
+
+}
+[1589609621.500][INFO]: [c6a480009501ab4778a709b4472224b1] RESPONSE CloseWindow [  ]
