@@ -1,6 +1,6 @@
-[1589609615.937][INFO]: Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 31044
-[1589609615.937][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1589609616.179][INFO]: [c6a480009501ab4778a709b4472224b1] COMMAND InitSession {
+[1590024464.867][INFO]: Starting ChromeDriver 81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776}) on port 45800
+[1590024464.867][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1590024465.396][INFO]: [298db1942e304f50e909dc847b522735] COMMAND InitSession {
    "capabilities": {
       "firstMatch": [ {
          "browserName": "chrome",
@@ -18,7 +18,7 @@
       }
    }
 }
-[1589609616.180][INFO]: Populating Preferences file: {
+[1590024465.400][INFO]: Populating Preferences file: {
    "alternate_error_pages": {
       "enabled": false
    },
@@ -71,7 +71,7 @@
       "enabled": false
    }
 }
-[1589609616.180][INFO]: Populating Local State file: {
+[1590024465.400][INFO]: Populating Local State file: {
    "background_mode": {
       "enabled": false
    },
@@ -81,19 +81,19 @@
       }
    }
 }
-[1589609616.187][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension=/var/folders/8f/qc1ypy794995m4vznm252bbh0000gn/T/.com.google.Chrome.3z2VBV/internal --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/8f/qc1ypy794995m4vznm252bbh0000gn/T/.com.google.Chrome.PNmYR4 data:,
-[1589609617.056][INFO]: resolved localhost to ["127.0.0.1","::1"]
-[1589609617.114][INFO]: [c6a480009501ab4778a709b4472224b1] RESPONSE InitSession {
+[1590024465.402][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension=/var/folders/8f/qc1ypy794995m4vznm252bbh0000gn/T/.com.google.Chrome.ba1lsE/internal --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/8f/qc1ypy794995m4vznm252bbh0000gn/T/.com.google.Chrome.zpqSBI data:,
+[1590024466.398][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1590024466.452][INFO]: [298db1942e304f50e909dc847b522735] RESPONSE InitSession {
    "capabilities": {
       "acceptInsecureCerts": false,
       "browserName": "chrome",
       "browserVersion": "81.0.4044.138",
       "chrome": {
          "chromedriverVersion": "81.0.4044.69 (6813546031a4bc83f717a2ef7cd4ac6ec1199132-refs/branch-heads/4044@{#776})",
-         "userDataDir": "/var/folders/8f/qc1ypy794995m4vznm252bbh0000gn/T/.com.google.Chrome.PNmYR4"
+         "userDataDir": "/var/folders/8f/qc1ypy794995m4vznm252bbh0000gn/T/.com.google.Chrome.zpqSBI"
       },
       "goog:chromeOptions": {
-         "debuggerAddress": "localhost:60639"
+         "debuggerAddress": "localhost:56933"
       },
       "networkConnectionEnabled": false,
       "pageLoadStrategy": "normal",
@@ -111,93 +111,138 @@
       "unhandledPromptBehavior": "dismiss and notify",
       "webauthn:virtualAuthenticators": true
    },
-   "sessionId": "c6a480009501ab4778a709b4472224b1"
+   "sessionId": "298db1942e304f50e909dc847b522735"
 }
-[1589609617.184][INFO]: [c6a480009501ab4778a709b4472224b1] COMMAND Navigate {
+[1590024466.539][INFO]: [298db1942e304f50e909dc847b522735] COMMAND Navigate {
    "url": "http://www.seleniumframework.com/Practiceform/"
 }
-[1589609617.184][INFO]: Waiting for pending navigations...
-[1589609617.186][INFO]: Done waiting for pending navigations. Status: ok
-[1589609618.037][INFO]: Waiting for pending navigations...
-[1589609618.514][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589609618.818][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589609619.067][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589609619.228][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589609619.360][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589609619.548][INFO]: Done waiting for pending navigations. Status: ok
-[1589609619.548][INFO]: [c6a480009501ab4778a709b4472224b1] RESPONSE Navigate
-[1589609619.556][INFO]: [c6a480009501ab4778a709b4472224b1] COMMAND MaximizeWindow {
+[1590024466.539][INFO]: Waiting for pending navigations...
+[1590024466.540][INFO]: Done waiting for pending navigations. Status: ok
+[1590024466.753][INFO]: Waiting for pending navigations...
+[1590024467.600][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590024467.976][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590024468.240][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590024468.423][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590024468.524][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590024468.627][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590024468.831][SEVERE]: Timed out receiving message from renderer: 0.100
+[1590024469.112][INFO]: Done waiting for pending navigations. Status: ok
+[1590024469.112][INFO]: [298db1942e304f50e909dc847b522735] RESPONSE Navigate
+[1590024469.118][INFO]: [298db1942e304f50e909dc847b522735] COMMAND MaximizeWindow {
 
 }
-[1589609619.556][INFO]: Waiting for pending navigations...
-[1589609619.563][INFO]: Done waiting for pending navigations. Status: ok
-[1589609619.564][INFO]: resolved localhost to ["127.0.0.1","::1"]
-[1589609619.754][INFO]: Waiting for pending navigations...
-[1589609619.890][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589609619.942][INFO]: Done waiting for pending navigations. Status: ok
-[1589609619.942][INFO]: [c6a480009501ab4778a709b4472224b1] RESPONSE MaximizeWindow {
-   "height": 958,
+[1590024469.118][INFO]: Waiting for pending navigations...
+[1590024469.118][INFO]: Done waiting for pending navigations. Status: ok
+[1590024469.119][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1590024469.289][INFO]: Waiting for pending navigations...
+[1590024469.323][INFO]: Done waiting for pending navigations. Status: ok
+[1590024469.323][INFO]: [298db1942e304f50e909dc847b522735] RESPONSE MaximizeWindow {
+   "height": 960,
    "width": 1680,
    "x": 0,
    "y": 23
 }
-[1589609619.948][INFO]: [c6a480009501ab4778a709b4472224b1] COMMAND FindElement {
+[1590024469.331][INFO]: [298db1942e304f50e909dc847b522735] COMMAND FindElement {
    "using": "css selector",
-   "value": "button[onclick='newBrwTab()']"
+   "value": "button#alert"
 }
-[1589609619.948][INFO]: Waiting for pending navigations...
-[1589609619.949][INFO]: Done waiting for pending navigations. Status: ok
-[1589609619.959][INFO]: Waiting for pending navigations...
-[1589609619.960][INFO]: Done waiting for pending navigations. Status: ok
-[1589609619.960][INFO]: [c6a480009501ab4778a709b4472224b1] RESPONSE FindElement {
-   "element-6066-11e4-a52e-4f735466cecf": "93828a50-845c-418e-b4e4-6752978096de"
+[1590024469.331][INFO]: Waiting for pending navigations...
+[1590024469.332][INFO]: Done waiting for pending navigations. Status: ok
+[1590024469.343][INFO]: Waiting for pending navigations...
+[1590024469.344][INFO]: Done waiting for pending navigations. Status: ok
+[1590024469.344][INFO]: [298db1942e304f50e909dc847b522735] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "b62bdc2f-9663-4289-b8b6-18000842d61d"
 }
-[1589609619.967][INFO]: [c6a480009501ab4778a709b4472224b1] COMMAND ClickElement {
-   "id": "93828a50-845c-418e-b4e4-6752978096de"
+[1590024469.350][INFO]: [298db1942e304f50e909dc847b522735] COMMAND ClickElement {
+   "id": "b62bdc2f-9663-4289-b8b6-18000842d61d"
 }
-[1589609619.967][INFO]: Waiting for pending navigations...
-[1589609619.968][INFO]: Done waiting for pending navigations. Status: ok
-[1589609620.093][INFO]: Waiting for pending navigations...
-[1589609620.139][INFO]: Done waiting for pending navigations. Status: ok
-[1589609620.139][INFO]: [c6a480009501ab4778a709b4472224b1] RESPONSE ClickElement
-[1589609620.141][INFO]: [c6a480009501ab4778a709b4472224b1] COMMAND GetWindows {
+[1590024469.350][INFO]: Waiting for pending navigations...
+[1590024469.351][INFO]: Done waiting for pending navigations. Status: ok
+[1590024469.422][INFO]: Waiting for pending navigations...
+[1590024469.422][INFO]: Done waiting for pending navigations. Status: unexpected alert open: {Alert text : Please share this website with your friends and in your organization.}
+[1590024469.422][INFO]: [298db1942e304f50e909dc847b522735] RESPONSE ClickElement
+[1590024471.425][INFO]: [298db1942e304f50e909dc847b522735] COMMAND GetAlertMessage {
 
 }
-[1589609620.143][INFO]: [c6a480009501ab4778a709b4472224b1] RESPONSE GetWindows [ "CDwindow-12F03729800A9611CF4370E14EF78838", "CDwindow-F620273F7ED62ED3429ECA3E078F0D09" ]
-[1589609620.152][INFO]: [c6a480009501ab4778a709b4472224b1] COMMAND CloseWindow {
+[1590024471.425][INFO]: Waiting for pending navigations...
+[1590024471.425][INFO]: Done waiting for pending navigations. Status: unexpected alert open: {Alert text : Please share this website with your friends and in your organization.}
+[1590024471.425][INFO]: [298db1942e304f50e909dc847b522735] RESPONSE GetAlertMessage "Please share this website with your friends and in your organization."
+[1590024471.428][INFO]: [298db1942e304f50e909dc847b522735] COMMAND AcceptAlert {
 
 }
-[1589609620.184][INFO]: [c6a480009501ab4778a709b4472224b1] RESPONSE CloseWindow [ "CDwindow-F620273F7ED62ED3429ECA3E078F0D09" ]
-[1589609620.193][INFO]: [c6a480009501ab4778a709b4472224b1] COMMAND SwitchToWindow {
-   "handle": "CDwindow-F620273F7ED62ED3429ECA3E078F0D09"
+[1590024471.428][INFO]: Waiting for pending navigations...
+[1590024471.428][INFO]: Done waiting for pending navigations. Status: unexpected alert open: {Alert text : Please share this website with your friends and in your organization.}
+[1590024471.471][INFO]: [298db1942e304f50e909dc847b522735] RESPONSE AcceptAlert
+[1590024471.475][INFO]: [298db1942e304f50e909dc847b522735] COMMAND FindElement {
+   "using": "css selector",
+   "value": "button#timingAlert"
 }
-[1589609620.197][INFO]: [c6a480009501ab4778a709b4472224b1] RESPONSE SwitchToWindow
-[1589609620.202][INFO]: [c6a480009501ab4778a709b4472224b1] COMMAND FindElement {
-   "using": "xpath",
-   "value": "//strong[contains(text(),'Agile Testing')]"
+[1590024471.475][INFO]: Waiting for pending navigations...
+[1590024471.475][INFO]: Done waiting for pending navigations. Status: ok
+[1590024471.481][INFO]: Waiting for pending navigations...
+[1590024471.482][INFO]: Done waiting for pending navigations. Status: ok
+[1590024471.482][INFO]: [298db1942e304f50e909dc847b522735] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "8d372df9-42ae-4d8f-a3e3-a5c8a454c6a0"
 }
-[1589609620.204][INFO]: resolved localhost to ["127.0.0.1","::1"]
-[1589609620.215][INFO]: Waiting for pending navigations...
-[1589609620.317][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589609620.421][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589609620.522][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589609620.624][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589609620.894][SEVERE]: Timed out receiving message from renderer: 0.100
-[1589609621.306][INFO]: Done waiting for pending navigations. Status: ok
-[1589609621.315][INFO]: Waiting for pending navigations...
-[1589609621.318][INFO]: Done waiting for pending navigations. Status: ok
-[1589609621.318][INFO]: [c6a480009501ab4778a709b4472224b1] RESPONSE FindElement {
-   "element-6066-11e4-a52e-4f735466cecf": "ba7eca0a-1e24-43cf-a1fd-c3bd0f0564e9"
+[1590024471.485][INFO]: [298db1942e304f50e909dc847b522735] COMMAND ClickElement {
+   "id": "8d372df9-42ae-4d8f-a3e3-a5c8a454c6a0"
 }
-[1589609621.321][INFO]: [c6a480009501ab4778a709b4472224b1] COMMAND GetElementText {
-   "id": "ba7eca0a-1e24-43cf-a1fd-c3bd0f0564e9"
-}
-[1589609621.321][INFO]: Waiting for pending navigations...
-[1589609621.322][INFO]: Done waiting for pending navigations. Status: ok
-[1589609621.338][INFO]: Waiting for pending navigations...
-[1589609621.340][INFO]: Done waiting for pending navigations. Status: ok
-[1589609621.340][INFO]: [c6a480009501ab4778a709b4472224b1] RESPONSE GetElementText "Agile Testing and ATDD Automation –  Free Tutorials"
-[1589609621.345][INFO]: [c6a480009501ab4778a709b4472224b1] COMMAND CloseWindow {
+[1590024471.486][INFO]: Waiting for pending navigations...
+[1590024471.487][INFO]: Done waiting for pending navigations. Status: ok
+[1590024471.520][INFO]: Waiting for pending navigations...
+[1590024471.521][INFO]: Done waiting for pending navigations. Status: ok
+[1590024471.521][INFO]: [298db1942e304f50e909dc847b522735] RESPONSE ClickElement
+[1590024471.526][INFO]: [298db1942e304f50e909dc847b522735] COMMAND GetAlertMessage {
 
 }
-[1589609621.500][INFO]: [c6a480009501ab4778a709b4472224b1] RESPONSE CloseWindow [  ]
+[1590024471.526][INFO]: Waiting for pending navigations...
+[1590024471.526][INFO]: Done waiting for pending navigations. Status: ok
+[1590024471.527][INFO]: [298db1942e304f50e909dc847b522735] RESPONSE GetAlertMessage ERROR no such alert
+  (Session info: chrome=81.0.4044.138)
+[1590024472.050][INFO]: [298db1942e304f50e909dc847b522735] COMMAND GetAlertMessage {
+
+}
+[1590024472.050][INFO]: Waiting for pending navigations...
+[1590024472.051][INFO]: Done waiting for pending navigations. Status: ok
+[1590024472.051][INFO]: [298db1942e304f50e909dc847b522735] RESPONSE GetAlertMessage ERROR no such alert
+  (Session info: chrome=81.0.4044.138)
+[1590024472.557][INFO]: [298db1942e304f50e909dc847b522735] COMMAND GetAlertMessage {
+
+}
+[1590024472.557][INFO]: Waiting for pending navigations...
+[1590024472.559][INFO]: Done waiting for pending navigations. Status: ok
+[1590024472.559][INFO]: [298db1942e304f50e909dc847b522735] RESPONSE GetAlertMessage ERROR no such alert
+  (Session info: chrome=81.0.4044.138)
+[1590024473.066][INFO]: [298db1942e304f50e909dc847b522735] COMMAND GetAlertMessage {
+
+}
+[1590024473.066][INFO]: Waiting for pending navigations...
+[1590024473.067][INFO]: Done waiting for pending navigations. Status: ok
+[1590024473.067][INFO]: [298db1942e304f50e909dc847b522735] RESPONSE GetAlertMessage ERROR no such alert
+  (Session info: chrome=81.0.4044.138)
+[1590024473.573][INFO]: [298db1942e304f50e909dc847b522735] COMMAND GetAlertMessage {
+
+}
+[1590024473.573][INFO]: Waiting for pending navigations...
+[1590024473.573][INFO]: Done waiting for pending navigations. Status: ok
+[1590024473.573][INFO]: [298db1942e304f50e909dc847b522735] RESPONSE GetAlertMessage ERROR no such alert
+  (Session info: chrome=81.0.4044.138)
+[1590024474.077][INFO]: [298db1942e304f50e909dc847b522735] COMMAND GetAlertMessage {
+
+}
+[1590024474.077][INFO]: Waiting for pending navigations...
+[1590024474.077][INFO]: Done waiting for pending navigations. Status: ok
+[1590024474.077][INFO]: [298db1942e304f50e909dc847b522735] RESPONSE GetAlertMessage ERROR no such alert
+  (Session info: chrome=81.0.4044.138)
+[1590024474.583][INFO]: [298db1942e304f50e909dc847b522735] COMMAND GetAlertMessage {
+
+}
+[1590024474.583][INFO]: Waiting for pending navigations...
+[1590024474.583][INFO]: Done waiting for pending navigations. Status: unexpected alert open: {Alert text : Please share this website with your friends and in your organization.}
+[1590024474.584][INFO]: [298db1942e304f50e909dc847b522735] RESPONSE GetAlertMessage "Please share this website with your friends and in your organization."
+[1590024476.591][INFO]: [298db1942e304f50e909dc847b522735] COMMAND AcceptAlert {
+
+}
+[1590024476.591][INFO]: Waiting for pending navigations...
+[1590024476.591][INFO]: Done waiting for pending navigations. Status: unexpected alert open: {Alert text : Please share this website with your friends and in your organization.}
+[1590024476.592][INFO]: [298db1942e304f50e909dc847b522735] RESPONSE AcceptAlert
