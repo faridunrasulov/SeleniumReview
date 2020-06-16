@@ -8,7 +8,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.NoSuchFrameException;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -234,22 +233,22 @@ public class CommonMethods extends BaseClass {
 		getWaitObject().until(ExpectedConditions.stalenessOf(element));
 	}
 	
-	public static void findByIdAndClick(WebDriver driver, String id) {
+	public static void findByIdAndClick(String id) {
 		boolean isFound = false;
-		while(!isFound) {
+		while (!isFound) {
 			List<WebElement> rows = driver.findElements(By.xpath("//table[@id='resultTable']/tbody/tr"));
-			for(int i = 0; i<rows.size(); i++) {
-				String rowsTxt = rows.get(i).getText();
-				if(rowsTxt.contains(id)) {
-					isFound=true;
+			for (int i = 0; i < rows.size(); i++) {
+				String rowTxt = rows.get(i).getText();
+				if (rowTxt.contains(id)) {
+					isFound = true;
 					sleep(1);
 					driver.findElement(By.xpath("//a[text()='"+id.trim()+"']")).click();
 					break;
 				}
-			
 			}
-			if(!isFound)
-			driver.findElement(By.xpath("//a[text()='Next']")).click();
+			if (!isFound)
+				driver.findElement(By.xpath("//a[text()='Next']")).click();
+			
 			
 		}
 	}
